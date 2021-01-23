@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="container-fluid">
+      <div
+        class="row align-items-sm-center justify-content-sm-center p-5 bg__custom-primary"
+        id="primaryBg"
+      >
+        <div class="col-xs-12 col-md-5 text-center order-sm-2 order-md-3">
+          <h2 class="font-weight-lighter text__custom-h2dark">Wassup!</h2>
+          <p class="text-white title__text">
+            The name's <span class="text-danger">Erwin Hartanto</span>
+          </p>
+          <p class="text-white title__text">
+            And I am an aspiring <span id="job" class="text-success"></span>
+          </p>
+        </div>
+
+        <div class="col-xs-12 col-md-5 text-center order-sm-1 mb-5 order-md-2">
+          <img
+            class="img-fluid rounded-circle border border-10 animate__animated animate__bounceInDown self-pic"
+            src="./img/akiet.png"
+            alt="A picture of Erwin Hartanto"
+          />
+          <small class="d-block mt-4">Big Man</small>
+          <!-- <button id="colorBtn">Test</button> -->
+        </div>
+
+        <div class="col-sm-12 order-sm-3 my-sm-5 col-md-1 order-md-1">
+          <nav class="navbar__container">
+            <ul class="nav flex-lg-column justify-content-sm-center">
+              <li class="nav-item">
+                <a
+                  class="nav-link active animated d-lg-inline-block"
+                  href="https://github.com/ErwinHao?tab=repositories"
+                  target="_blank"
+                >
+                  <i class="bi bi-github"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link animated d-lg-inline-block"
+                  href="https://www.linkedin.com/in/erwin-hartanto-7a76b0203/"
+                  target="_blank"
+                >
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link animated d-lg-inline-block"
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="right"
+                  title="Zweil#5774"
+                >
+                  <i class="bi bi-discord"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="row my-5 show bg__custom-about p-sm-5" id="secondaryBg">
+        <div class="col">
+          <h2 class="text-center my-5 text-white">About Me</h2>
+          <div class="container">
+            <div class="row justify-content-sm-center">
+              <div
+                class="col-md-12 col-lg-4 my-sm-5 d-flex align-items-stretch"
+              >
+                <div class="card bg__custom-cdark w-100" style="width: 18rem">
+                  <div class="img-cont position-relative mt-2">
+                    <img
+                      src="./img/flag.jpg"
+                      class="card-img-top img-thumbnail img-fluid"
+                      alt="Indonesia flag"
+                    />
+                    <div class="overlay"></div>
+                  </div>
+                  <hr />
+                  <div class="card-body bg__custom-ternary">
+                    <h5 class="card-title font-weight-bold text__custom-dark">
+                      Where I came from?
+                    </h5>
+                    <p
+                      class="card-text text__custom-pdark text-justify fix-height"
+                    >
+                      I hail from <span class="text-danger">Indo</span
+                      ><span class="text-white">nesia</span>! Sumatera Utara
+                      province, Pematangsiantar city. Nice to meet all of you
+                      globally!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-12 col-lg-4 my-sm-5 d-flex align-items-stretch"
+              >
+                <div class="card bg__custom-cdark w-100" style="width: 18rem">
+                  <div class="img-cont position-relative mt-2">
+                    <img
+                      src="./img/laptop.jpg"
+                      class="card-img-top rounded img-thumbnail img-fluid"
+                      alt="A picture of a laptop"
+                    />
+                    <div class="overlay"></div>
+                  </div>
+                  <hr />
+                  <div class="card-body bg__custom-ternary">
+                    <h5 class="card-title font-weight-bold text__custom-dark">
+                      What can I do?
+                    </h5>
+                    <p class="card-text text__custom-pdark text-justify">
+                      Nothing much. I am still a greenhorn when it comes to web
+                      development, therefore, <strong>aspiring</strong> :D. This
+                      website is the start of my journey on becoming a true web
+                      connoisseur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-12 col-lg-4 my-sm-5 d-flex align-items-stretch"
+              >
+                <div class="card bg__custom-cdark w-100" style="width: 18rem">
+                  <div class="img-cont position-relative mt-2">
+                    <img
+                      src="./img/confusedtravolta.jpg"
+                      class="card-img-top rounded img-thumbnail img-fluid"
+                      alt="A picture of a confused Travolta"
+                    />
+                    <div class="overlay"></div>
+                  </div>
+                  <hr />
+                  <div class="card-body bg__custom-ternary">
+                    <h5 class="card-title font-weight-bold text__custom-dark">
+                      How come there is nothing here?
+                    </h5>
+                    <p class="card-text text__custom-pdark text-justify">
+                      Trust me, you'll see more stuffs once I get the hang out
+                      of proper web development.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row bg__custom-secondary p-4" id="ternaryBg">
+        <div class="col text-center">
+          <h2 class="text-white mt-5">Contact Me!</h2>
+
+          <small class="text-dark">unfortunately, you can't for now :(</small>
+          <form id="form" class="container mt-5">
+            <div class="row justify-content-center">
+              <div class="form-group col-lg-6">
+                <input type="text" class="form-control" placeholder="Name" />
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="form-group col-lg-6">
+                <input type="text" class="form-control" placeholder="Email" />
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="form-group col-lg-6">
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="form-control"
+                  placeholder="Enter your message..."
+                ></textarea>
+              </div>
+            </div>
+            <div class="form-group col-lg-12">
+              <button class="btn btn-lg btn-dark" id="submitBtn">
+                Contact
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer
+      id="footer"
+      class="flex-md-column flex-sm-column flex-xs-column flex-lg-row align-items-md-center align-items-sm-center align-items-xs-center"
+    >
+      <small>Made by yours truly, Erwin Hartanto&copy;</small>
+      <small>This page has been visited <span id="count">0</span> times</small>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  </body>
+</html>
